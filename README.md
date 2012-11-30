@@ -1,6 +1,6 @@
 FMap
 ----
-An immutable FMap ADT
+A functional (immutable) FMap ADT
 
 Signature
 ---------
@@ -40,7 +40,7 @@ Performance requirements
         m.containsKey(k)      should run in O(lg n) time
         m.get(k)              should run in O(lg n) time
         m.iterator()          should run in O(n) time
-        iter.hasNext()        should run in O(1) time
+        iter.hasNext()        should run in O(1) time  
         iter.next()           should run in O(1) time
         m.accept(v)           should run in O(n) time                         
 
